@@ -6,7 +6,7 @@ const PORT = 4000;
 app.get('/', (req, res) => {
     console.log(req)
 
-    res.send('Welcome to the first api')
+    res.send('Hello World Welcome to the first api')
 })
 
 app.listen(PORT, () => {
